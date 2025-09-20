@@ -53,8 +53,3 @@ Tomorrow Meetings
 Design Review  14:00-14:30
 ```
 
----
-
-## License
-
-MIT License
