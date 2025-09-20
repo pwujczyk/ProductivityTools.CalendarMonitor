@@ -68,10 +68,8 @@ function monitorCalendarAndDisplayEvents() {
     function formatEvents(events) {
         if (events.length === 0) return 'No meetings.<br>';
         return events.map(function(ev) {
-            return '<b>' + ev.title + '</b><br>' +
-                'Start: ' + formatTime(ev.start) + '<br>' +
-                'End: ' + formatTime(ev.end) + '<br>' +
-                'Guests: ' + ev.guests + '<br><br>';
+            return '<b>' + ev.title + ' </b>' +
+                ' ' + formatTime(ev.start) + '-'  + formatTime(ev.end) + '<br>'
         }).join('');
     }
 
